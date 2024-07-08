@@ -80,7 +80,10 @@ index.html ထဲမှာပဲ inline style နဲ့ width, height ရေး�
         }
        </style>
 
-    နောက်ဆုံးမှာ ဒီလို ပုံစံကို မြင်တွေ့ကြရပါမယ်။
+    
+     01-HTML ရဲ့ ပြီးပြည့်စုံတဲ့ ပုံစံကို အောက်မှာကြည့်ရှုနိုင်ပါတယ်။
 
-    ![alt text](<Screenshot from 2024-07-08 18-21-23.png>)
+    ![alt text](<Screenshot from 2024-07-08 21-33-40.png>)
 
+
+    
