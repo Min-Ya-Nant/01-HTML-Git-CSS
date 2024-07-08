@@ -1,44 +1,36 @@
-# 🐛 Images and Styles Not Appearing on Page
+# 02- Attributes
 
-Work with a partner to resolve the following issues:
 
-* As a user, I should be able to see an image on the page, and `alt` text that describes the image should be provided.
+* မာတိကာ 
 
-* As a user, I should see background colors applied to each section and list item, and the header text should be dark blue.
+1. html နဲ့ style.css ချိတ်ဆက် အသုံးပြုခြင်း။ 
 
-## Expected Behavior
+2. class="Headers" class="section" အကြောင်း 
+သိကောင်းစရာများ။
 
-* When a user opens the page, an image should appear, and `alt` text describing the image should be provided.
+3. id="email", id="github", id="portfolio" အကြောင်း သိကောင်းစရာများ။
 
-* When a user opens the page, each section and list item should have a background color applied, and the header text should be dark blue.
 
-## Actual Behavior
+# 1. html နဲ့ style.css ချိတ်ဆက် အသုံးပြုခြင်း။ 
 
-* When a user opens the page, no image appears and `alt` text describing the image is not shown.
+* 02-Attributes မှာ အထူးတလည် မှတ်သားရမယ့် အချက်အလက်များကိုသာ ရေးပါ့မယ်။ index.html နဲ့ style.css ဖိုင် နှစ်ခုကို ချိတ်ဆက်ဖို့ လင့်တစ်ခုလိုအပ်ပါတယ်။ ဒါကြောင့် လင့်တက်ဂ် ခေါ်ပြီး html ထဲမှာ style.css ကို လင့်ချိတ်ရပါတယ်။ လင့်ကို head tag ထဲမှာ ထားပါတယ်။ အောက်က လင့်ချိတ်ထားတဲ့ ပုံစံကို ကြည့်ပါ။
+ <link rel="stylesheet" href="./assets/css/style.css">
 
-* When a user opens the page, each section and list item does not have a background color applied.
+# 2. class="Headers" class="section" အကြောင်း 
+သိကောင်းစရာများ။
 
-* When a user opens the page, the header text is not dark blue.
++ h1 tag ထဲမှာရော h2 tag ထဲမှာပါ class="headers" ဆိုပြီး ရေးထားပါတယ်။ ဒါက ဘာကို ရည်ညွန်းသလဲ ဆိုရင် h1 နဲ့ h2 ကို အထူးပြုထားတဲ့ သင်္ကေတပဲ ဖြစ်ပါတယ်။ ဒါကို အင်္ဂလိပ်လို attributes လို့ ခေါ်ပါတယ်။ style.css ထဲမှာ ခေါ်သုံးတဲ့အခါ attributes ရဲ့ သင်္ကတကို . ခံပြီး .headers လို့ ရေးရပါတယ်။ class="section" ကိုလည်း .section လို့ ရေးပြီး အရောင်ကာလာ စတာတွေ အသုံးပြုနိုင်ပါတယ်။ 
 
-## Assets
 
-The following image demonstrates the web application's appearance and functionality:
+# 3. id="email", id="github", id="portfolio" အကြောင်း သိကောင်းစရာများ။
 
-![The portfolio page features headings in dark-blue text, rounded corners on the image placeholder, and various background colors.](./assets/image-1.png)
+* id= သင်္ကေတတွကို style.css ထဲမှာ # သင်္ကေတ နဲ့ အသုံးပြုပါတယ်။ id="email" ကို #email၊ id="github" ကို #github၊ id="portfolio" ကို #portfolio လို့ ရေးရပါတယ်။ အရောင်ကာလများ အသုံးပြုပေးထားပါတယ်။
 
----
+# အထူး အထူးမှာကြားချက်။
 
-## 💡 Hints
+* 01-html ကို အခြေခံပြီး ရေးရမှာဖြစ်ပါတယ်။ title, header, section 1/2 အနည်းငယ်ပဲ အပြောင်းအလှဲ ရှိပါတယ်။
 
-Why is it important to give each global attribute a unique name?
+02-Attributes ရဲ့ ပြီးပြည့်စုံတဲ့ ပုံစံကို အောက်မှာကြည့်ရှုနိုင်ပါတယ်။
 
-## 🏆 Bonus
+![alt text](<Screenshot from 2024-07-08 20-55-12.png>)
 
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What other attributes can be used with HTML elements?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
